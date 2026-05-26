@@ -16,7 +16,7 @@ Essa ânsia de sair e explorar a vida sempre esteve dentro de mim, mas por conta
 
 Com uma câmera na mão não havia mais desculpas. Se eu quisesse registrar coisas interessantes seria necessário explorar o mundo ao meu redor. E foi com esse ímpeto que minha paixão por fotografia floresceu.
 
-Comecei a fazer o que as pessoas chamam de *photowalk*, que é basicamente andar por aí e registrar cenas que despertam sua atenção. Há quem se dedique a fotografar pessoas, outros preferem prédios, mas o que todos tem em comum é o registro da vida cotidiana.
+Comecei a fazer o que as pessoas chamam de _photowalk_, que é basicamente andar por aí e registrar cenas que despertam sua atenção. Há quem se dedique a fotografar pessoas, outros preferem prédios, mas o que todos tem em comum é o registro da vida cotidiana.
 
 Como alguns sabem, atualmente **moro na Alemanha**, e quase todos os finais de semana eu saio para conhecer alguma cidade ou vilarejo ao redor de onde vivo. E essas andanças já me proporcionaram fotos muito bonitas. Mas a fotografia, embora seja capaz de congelar momentos incríveis no tempo, começou a não ser mais suficiente pra mim.
 

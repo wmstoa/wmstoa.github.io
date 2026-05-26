@@ -85,7 +85,7 @@ Depois de analisar tudo o que fiz posso resumir esse ano em: muito conteúdo cri
 
 ![](./_assets/stoa-62-retrospectiva-de-2025-and-6.jpg)
 
-- Lancei junto com o  o projeto [livros.design](https://livros.design/)
+- Lancei junto com o o projeto [livros.design](https://livros.design/)
 - Comprei um curso de IA em Design para me especializar
 - Visitei Monschau para registrar a cidade no outono e foi mágico. [[1]](https://www.instagram.com/willianmatiola/p/DRO7G82jDiD/)[[2]](https://www.instagram.com/willianmatiola/p/DRRjcUgjOnO/)[[3]](https://www.instagram.com/willianmatiola/p/DRUIRkCjC2F/)[[4]](https://www.instagram.com/willianmatiola/p/DRWtouMjAN3/)
 
@@ -105,22 +105,22 @@ Depois de analisar tudo o que fiz posso resumir esse ano em: muito conteúdo cri
 
 **Estatísticas**
 
-- **[YouTube](https://youtube.com/willianmatiola)****+1.2k** inscritos**23.9k** visualizações**32** vídeos publicados**5** Lives
+- **[YouTube](https://youtube.com/willianmatiola)\*\***+1.2k** inscritos**23.9k** visualizações**32** vídeos publicados**5\*\* Lives
 - **+1.2k** inscritos
 - **23.9k** visualizações
 - **32** vídeos publicados
 - **5** Lives
-- **[Pexels](https://www.pexels.com/@willianmatiola/)****4.1** milhões de views nas minhas fotos no [Pexels](https://www.pexels.com/@willianmatiola/);**19.5k** downloads;**1k** likes;**171** seguidores.
+- **[Pexels](https://www.pexels.com/@willianmatiola/)\*\***4.1** milhões de views nas minhas fotos no [Pexels](https://www.pexels.com/@willianmatiola/);**19.5k** downloads;**1k** likes;**171\*\* seguidores.
 - **4.1** milhões de views nas minhas fotos no [Pexels](https://www.pexels.com/@willianmatiola/);
 - **19.5k** downloads;
 - **1k** likes;
 - **171** seguidores.
-- **[Componentes Design](https://componentes.design/)****12k** de acessos e **25k** visualizações no componentes.design;**R$8.890** de receita;**R$1.776** doados para instituições, ongs e vakinhas;**R$1.820** de despesas.
+- **[Componentes Design](https://componentes.design/)\*\***12k** de acessos e **25k** visualizações no componentes.design;**R$8.890** de receita;**R$1.776** doados para instituições, ongs e vakinhas;**R$1.820\*\* de despesas.
 - **12k** de acessos e **25k** visualizações no componentes.design;
 - **R$8.890** de receita;
 - **R$1.776** doados para instituições, ongs e vakinhas;
 - **R$1.820** de despesas.
-- **[Livros Design](https://livros.design/)****7.6k** de acessos e **13k** visualizações no livros.design.
+- **[Livros Design](https://livros.design/)\*\***7.6k** de acessos e **13k\*\* visualizações no livros.design.
 - **7.6k** de acessos e **13k** visualizações no livros.design.
 - **Outras** **16** cidades visitadas;**3** projetos de design trabalhados;**2** meetups de design;**3** meetups do Pexel;**10** Stoas publicadas.
 - **16** cidades visitadas;

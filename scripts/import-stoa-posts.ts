@@ -203,7 +203,13 @@ async function htmlToMarkdown(html: string, slug: string, imageIndex = { value: 
 
     if (tag === 'blockquote') {
       const text = inlineToMarkdown(el).trim()
-      if (text) blocks.push(text.split('\n').map((line) => `> ${line}`).join('\n'))
+      if (text)
+        blocks.push(
+          text
+            .split('\n')
+            .map((line) => `> ${line}`)
+            .join('\n')
+        )
       continue
     }
 

@@ -3,7 +3,7 @@ title: Design Comportamental e Jogos de Apostas
 pubDate: '2025-06-26'
 ---
 
-### Como nosso cérebro funciona e como as empresas utilizam de modelos mentais, vieses cognitivos e outros mecanismos para fod*r a vida das pessoas.
+### Como nosso cérebro funciona e como as empresas utilizam de modelos mentais, vieses cognitivos e outros mecanismos para fod\*r a vida das pessoas.
 
 Antes de você pular para o conteúdo, confira o que rolou na minha vida desde a última edição da Stoa:
 
@@ -32,7 +32,7 @@ Essa ativação ocorre quando o cérebro, ao ser exposto por esse estímulos rec
 
 Imagine que a dopamina é como um barquinho, navegando por um sistema de rios que conecta diferentes “portos” dentro do cérebro. Um dos principais rios dessa jornada é a via dopaminérgica mesolímbica, e um desses portos onde a dopamina passa é o **Núcleo Accumbens** – uma área associada com motivação e recompensas que faz parte de um complexo circuito envolvendo a **amígdala** (que adiciona um peso emocional ao estímulo) e ao **hipocampo** (que fornece contexto baseado em experiências passadas).
 
-Quando a dopamina chega no Núcleo Accumbens, o cérebro recebe o sinal de que o estímulo foi bom e recompensador e que por isso deve ser repetido. A amígdala, por sua vez, reforça essa sensação de prazer atribuindo emoções a essa recompensa (*aiiin que delícia, quero mais!*), já o hipocampo registra essa memória e aprendizado satisfatório (*lembra daquela sensação gostosa? Então…precisamos repetir!*).
+Quando a dopamina chega no Núcleo Accumbens, o cérebro recebe o sinal de que o estímulo foi bom e recompensador e que por isso deve ser repetido. A amígdala, por sua vez, reforça essa sensação de prazer atribuindo emoções a essa recompensa (_aiiin que delícia, quero mais!_), já o hipocampo registra essa memória e aprendizado satisfatório (_lembra daquela sensação gostosa? Então…precisamos repetir!_).
 
 O Instagram é um bom exemplo desse processo: ao rolar o feed do Instagram somos expostos a diversos conteúdos (**estímulos**) e quando encontramos algo interessante ficamos felizes (**dopamina liberada**). Para continuar com essa sensação de felicidade, continuamos rolando o feed indefinidamente até encontrar novas recompensas (criando um loop). Esse mecanismo é conhecido como **Loop do Hábito** ou também como **The Hooked Model**.
 
@@ -63,17 +63,17 @@ Vamos começar pelo Loop do Hábito[3](#footnote-3), um conceito introduzido pel
 1. **Cue:** é o gatilho que inicia um comportamento habitual e pode assumir diferentes formas: pode ser um local, um tempo, estado emocional, pessoas ao nosso redor ou qualquer estímulo que iniciará os eventos seguintes.
 
 1. **Routine:** se refere ao hábito ou ao comportamento repetitivo. Pode ou não ser algo que você está ciente, como ir à academia todos os dias às 8h da manhã ou levantar sempre com o pé esquerdo.
-2. **Reward:** recompensas se referem ao que o comportamento faz por você, ou seja, o que você recebe em troca por ter executado o hábito ou rotina. As recompensas são fundamentais para reforçar as rotinas e manter o hábito firme.
+1. **Reward:** recompensas se referem ao que o comportamento faz por você, ou seja, o que você recebe em troca por ter executado o hábito ou rotina. As recompensas são fundamentais para reforçar as rotinas e manter o hábito firme.
 
 **Exemplo de um loop do hábito:** todos os dias eu levanto (**cue** é o horário), tomo café e vou direto para o computador. A primeira coisa que eu faço é ver todos os sites de inspiração que tenho nos meus favoritos (**routine**) em busca de coisas bonitas para eu salvar no meu My Mind (**reward**).
 
 ### The Hooked Model
 
-Já o The Hooked Model[4](#footnote-4)** **é um modelo proposto por Nir Eyal em seu livro **[Hooked](https://amzn.to/4mYBMoA)**, publicado em 2014.
+Já o The Hooked Model[4](#footnote-4)\*\* **é um modelo proposto por Nir Eyal em seu livro **[Hooked](https://amzn.to/4mYBMoA)\*\*, publicado em 2014.
 
 Ele é parecido com o loop do hábito, sendo composto por 4 componentes principais: **trigger** (gatilho), **action** (ação), **variable** **reward** (recompensa variável) e **investment** (investimento). Diferente do primeiro modelo, esse foi desenvolvido para o cenário de produtos digitais e utiliza mecânicas de jogos e de apostas para criar produtos que fisgam (hook) a atenção do usuário.
 
-Alguns críticos[5](#footnote-5) apontam que seu livro ajudou pessoas com objetivos obscuros no cenário tecnológico a criarem produtos que viciam seu usuários. Ironicamente, seu segundo livro se chama “*Indistractable*” e ensina técnicas para você sair do “*hook*” ensinado no primeiro livro.
+Alguns críticos[5](#footnote-5) apontam que seu livro ajudou pessoas com objetivos obscuros no cenário tecnológico a criarem produtos que viciam seu usuários. Ironicamente, seu segundo livro se chama “_Indistractable_” e ensina técnicas para você sair do “_hook_” ensinado no primeiro livro.
 
 Será que a consciência do autor pesou ou ele só quer criar um loop de dinheiro caindo na sua conta bancária?
 
@@ -88,7 +88,7 @@ Esses modelos estão presentes em praticamente todos os produtos ou serviços qu
 
 Se observarmos com atenção, veremos que as redes sociais fazem isso quando criam rolagens infinitas, ou quando precisamos pagar para desbloquear bônus em jogos, ou até mesmo em streamings de vídeo quando eles exibem o próximo episódio de uma série sem que façamos qualquer esforço.
 
-Para que cada uma dessas etapas seja bem sucedida tem alguém por trás pensando nas melhores maneiras de explorar **modelos mentais**, **heurísticas** e **vieses cognitivos** capazes de moldar nossos comportamentos.  E é sobre isso que veremos a seguir.
+Para que cada uma dessas etapas seja bem sucedida tem alguém por trás pensando nas melhores maneiras de explorar **modelos mentais**, **heurísticas** e **vieses cognitivos** capazes de moldar nossos comportamentos. E é sobre isso que veremos a seguir.
 
 ![](./_assets/design-comportamental-jogos-de-apostas-9.png)
 
@@ -106,7 +106,7 @@ Modelos mentais **mudam** ou são completamente **substituídos** constantemente
 
 ### Heurísticas
 
-Uma heurística é um atalho cognitivo ou um conjunto de regras práticas que simplificam a tomada de decisão, especialmente em condições de incerteza. É basicamente um “faça isso” se “isso” acontecer.  Em outras palavras, "são estratégias cognitivas que simplificam problemas complexos, permitindo soluções mais rápidas, embora nem sempre ideais."[7](#footnote-7)
+Uma heurística é um atalho cognitivo ou um conjunto de regras práticas que simplificam a tomada de decisão, especialmente em condições de incerteza. É basicamente um “faça isso” se “isso” acontecer. Em outras palavras, "são estratégias cognitivas que simplificam problemas complexos, permitindo soluções mais rápidas, embora nem sempre ideais."[7](#footnote-7)
 
 A relação entre modelos mentais e heurísticas é complementar: os modelos mentais provém a **estrutura** para entender o mundo, como os sistemas funcionam e como as variáveis interagem, enquanto heurísticas fornecem a **velocidade** para navegar nesse mundo, nos permitindo tomar decisões rapidamente e sem a necessidade de uma análise super detalhada.
 
@@ -125,13 +125,13 @@ Podemos dizer que vieses cognitivos são heurísticas desviadas de sua norma ou 
 
 Alguns desses vieses são bem conhecidos, como é o caso do **viés de confirmação** em que os indivíduos procuram confirmar sua visão de mundo ou opiniões somente com base naquilo que reforça essa visão. Ou o **viés de ancoragem**, que molda nossa percepção de acordo com a primeira informação disponível sobre algo.
 
-Esses e outros vieses são amplamente utilizados em design digital para explorar essas falhas de julgamento dos usuários e se beneficiar de sua “irracionalidade”. Essa técnica é conhecida como ***dark pattern*** ou ***deceptive design***.
+Esses e outros vieses são amplamente utilizados em design digital para explorar essas falhas de julgamento dos usuários e se beneficiar de sua “irracionalidade”. Essa técnica é conhecida como **_dark pattern_** ou **_deceptive design_**.
 
 No mundo dos aplicativos de apostas isso é levado a um nível muito maior, afinal, quanto mais familiar, mais engajado e mais suscetível a irracionalidade, mais dinheiro é perdido por usuários que pensam que estão no controle.
 
 Antes de vermos como isso se manifesta visualmente nas interfaces, vamos entender os vieses cognitivos mais comuns utilizados pelas bets.
 
-1. **Gambler’s Fallacy**[9](#footnote-9)(falácia do apostador): “A falácia do apostador descreve nossa crença de que a probabilidade de um evento aleatório ocorrer no futuro é influenciada por instâncias anteriores desse tipo de evento”. É o famoso “*Rapaz, eu acabei de ganhar cinquentão na minha primeira tentativa. Eu devo ser muito bom! Com certeza vou ficar rico apostando*”.
+1. **Gambler’s Fallacy**[9](#footnote-9)(falácia do apostador): “A falácia do apostador descreve nossa crença de que a probabilidade de um evento aleatório ocorrer no futuro é influenciada por instâncias anteriores desse tipo de evento”. É o famoso “_Rapaz, eu acabei de ganhar cinquentão na minha primeira tentativa. Eu devo ser muito bom! Com certeza vou ficar rico apostando_”.
 2. **Cashless Effect**[10](#footnote-10): descreve nossa tendência de estarmos mais propensos a pagar por algo quando não há dinheiro físico envolvido. É por isso que apps de bet facilitam ao máximo o envio de Pix ou transferências bancárias para colocar saldo na carteira.
 3. **Ilusão de Controle:** descreve como acreditamos ter mais controle sobre eventos do que realmente temos. Mesmo quando algo é puramente aleatório pensamos que somos capazes de influenciar o evento de algum maneira. Nas bets, mesmo que seja evidente que o jogo sempre vai beneficiar a casa devido a sua natureza programática, muitas pessoas acreditam que possuem técnicas infalíveis que os fazem ganhar mais que os outros jogadores.[](https://substackcdn.com/image/fetch/$s_!PyZg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70c43adc-4484-4c31-8d77-c71ee137caed_1286x611.png)Exemplo de um influenciador otário tentando enganar os outros
 4. **Viés do Otimismo:**[11](#footnote-11) descreve nossa tendência de superestimar a probabilidade de experienciar eventos positivos e subestimar os eventos negativos. É o famoso “a esperança é a última que morre” e pode aparecer em conjunto com o viés anterior. Nos apps de apostas, esse viés pode ser facilmente explorando quando a máquina deixa o apostador ganhar recompensas aleatórias (variable reward) para reforçar seu otimismo e ilusão de controle.
@@ -140,7 +140,7 @@ Antes de vermos como isso se manifesta visualmente nas interfaces, vamos entende
 
 Existem muitos outros **[vieses cognitivos](https://thedecisionlab.com/biases)** que poderíamos trazer para o contexto de apostas online mas para não tornar essa edição maior do que já está, vamos parar por aqui.
 
-Acredito que já deu para entender como nossa mente pode ser facilmente hackeada para se comportar de maneira “irracional”.  E as bets sabem muito bem disso e aplicam todo esse conhecimento em suas interfaces e experiências para manter os apostadores presos em um eterno loop da desgraça.
+Acredito que já deu para entender como nossa mente pode ser facilmente hackeada para se comportar de maneira “irracional”. E as bets sabem muito bem disso e aplicam todo esse conhecimento em suas interfaces e experiências para manter os apostadores presos em um eterno loop da desgraça.
 
 ![](./_assets/design-comportamental-jogos-de-apostas-10.png)
 

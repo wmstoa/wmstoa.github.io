@@ -63,7 +63,7 @@ Agora, se quiser conversar, é só avisar! A gente se conecta sem problema algum
 
 ## Follow vs Connect
 
-No LinkedIn, especificamente, temos duas formas de começar a interagir com alguém: ***follow*** (seguir) ou ***connect*** (conectar).
+No LinkedIn, especificamente, temos duas formas de começar a interagir com alguém: **_follow_** (seguir) ou **_connect_** (conectar).
 
 Se você não tem interesse de criar uma conexão com a pessoa e quer apenas seguir seus conteúdos, opte pelo botão **Follow**.
 

@@ -7,9 +7,9 @@ pubDate: '2025-09-10'
 
 Esta edição tem como objetivo o entretenimento.
 
-As **10 observações** a seguir sobre o que estou chamando de *Design Bro* não se referem a nenhuma pessoa em específico. São percepções reunidas ao longo de muitos anos de participação na comunidade de design, tanto no Brasil quanto no exterior.
+As **10 observações** a seguir sobre o que estou chamando de _Design Bro_ não se referem a nenhuma pessoa em específico. São percepções reunidas ao longo de muitos anos de participação na comunidade de design, tanto no Brasil quanto no exterior.
 
-Vale lembrar que um *design bro* não necessariamente reúne todas as características listadas. É mais comum que algumas apareçam de forma mais evidente, enquanto outras se manifestam de maneira sutil.
+Vale lembrar que um _design bro_ não necessariamente reúne todas as características listadas. É mais comum que algumas apareçam de forma mais evidente, enquanto outras se manifestam de maneira sutil.
 
 Aliás, é bem possível que tanto você quanto eu já tenhamos apresentado algumas dessas características — ou ainda apresentemos, ou venhamos a apresentar no futuro.
 

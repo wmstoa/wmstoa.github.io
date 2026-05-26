@@ -13,7 +13,7 @@ Vejo muitos designers, especialmente os iniciantes, exagerando nos tamanhos de t
 
 No exemplo acima, todos os componentes foram criados utilizando apenas 3 tamanhos de texto: **16px**, **14px** e **12px**.
 
-Os títulos, naturalmente, recebem o tamanho de 16px para enfatizar a hierarquia. Os subtítulos, *labels*, *placeholders* e outros textos auxiliares recebem o tamanho de 14px. Já os textos das *tags*, botões e outros elementos menores recebem o tamanho de 12px.
+Os títulos, naturalmente, recebem o tamanho de 16px para enfatizar a hierarquia. Os subtítulos, _labels_, _placeholders_ e outros textos auxiliares recebem o tamanho de 14px. Já os textos das _tags_, botões e outros elementos menores recebem o tamanho de 12px.
 
 ![](./_assets/stoa-63-tipografia-em-elementos-de-2.png)
 
@@ -23,11 +23,11 @@ Mesmo que os componentes tenham poucas variações de tamanho, ainda é necessá
 
 ![Exemplo de dashboard do shadcn.](./_assets/stoa-63-tipografia-em-elementos-de-3.jpg)
 
-Em um *dashboard*, por exemplo, precisamos de tamanhos maiores para servir de título da seção ou para os números dentro de alguns componentes. No exemplo acima, os números possuem 30px para reforçar a importância desse elemento na página.
+Em um _dashboard_, por exemplo, precisamos de tamanhos maiores para servir de título da seção ou para os números dentro de alguns componentes. No exemplo acima, os números possuem 30px para reforçar a importância desse elemento na página.
 
 No total, o **[shadcn](https://ui.shadcn.com/)** possui **10** **variáveis** de tamanhos para acomodar todas as situações que um design system robusto pode apresentar, mas isso não significa que seu projeto também precisará de todos eles.
 
-Caso você esteja se perguntando como os valores em **rem **funcionam, basta definir um tamanho base e depois multiplicar o fator por ele (16px * 1.125 = 18px).
+Caso você esteja se perguntando como os valores em **rem **funcionam, basta definir um tamanho base e depois multiplicar o fator por ele (16px \* 1.125 = 18px).
 
 ![](./_assets/stoa-63-tipografia-em-elementos-de-4.png)
 

@@ -11,7 +11,7 @@ Você trabalha há vários anos como designer e de repente se vê estagnado e se
 
 Calma. Respire fundo. Vamos refletir sobre algumas coisas.
 
-*Obs.: Essa também é uma carta para mim mesmo, pois não sou imune aos sentimentos de incerteza e confusão.*
+_Obs.: Essa também é uma carta para mim mesmo, pois não sou imune aos sentimentos de incerteza e confusão._
 
 ![](./_assets/stoa-49-carta-aberta-para-quem-esta-1.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Aversão a produtos feitos com vibe coding
-pubDate: "2026-05-26"
+pubDate: '2026-05-26'
 ---
 
 A popularização das ferramentas de "vibe code" criou uma enxurrada de "programadores" da noite para o dia. Pessoas que antes não tinham capacidade técnica para colocar suas ideias em prática agora veem nessas ferramentas uma maneira rápida, prática e, muitas vezes, barata de colocar algo para rodar.

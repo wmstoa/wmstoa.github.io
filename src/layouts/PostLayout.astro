@@ -52,11 +52,7 @@ const shouldRenderLinkCard = themeConfig.post.linkCard && contentFeatures.hasLin
             <Logo />
             <span class="post-brand-name">{themeConfig.site.brandName}</span>
           </a>
-          {
-            editionNumber ? (
-              <p class="edition">Edição #{formatEditionNumber(editionNumber)}</p>
-            ) : null
-          }
+          {editionNumber ? <p class="edition">Edição #{formatEditionNumber(editionNumber)}</p> : null}
           <h1>{title}</h1>
           <div class="author">
             {

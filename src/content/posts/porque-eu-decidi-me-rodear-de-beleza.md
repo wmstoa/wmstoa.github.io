@@ -1,6 +1,6 @@
 ---
 title: Porque eu decidi me rodear de beleza
-pubDate: "2026-05-12"
+pubDate: '2026-05-12'
 ---
 
 Nessa edição eu não vou entrar no mérito da subjetividade da beleza. Já sabemos que aquilo que é belo para uma pessoa não necessariamente será belo para outra. Isso é, na verdade, a beleza das coisas belas.

@@ -16,7 +16,7 @@ Antes de você pular para o conteúdo, confira o que rolou na minha vida desde a
 
 Algo que me incomoda profundamente na internet — especialmente na criação de conteúdo sobre design — é a compulsão de alguns criadores por usar títulos catastróficos apenas para chamar a atenção de outros designers.
 
-Frases como “**UX Design está morto**” ou “**Já era: a IA vai substituir os designers!**” se tornaram cada vez mais comuns. Mesmo quando o conteúdo adota uma visão positiva, o *clickbait* explora e reforça medos reais de muitas pessoas.
+Frases como “**UX Design está morto**” ou “**Já era: a IA vai substituir os designers!**” se tornaram cada vez mais comuns. Mesmo quando o conteúdo adota uma visão positiva, o _clickbait_ explora e reforça medos reais de muitas pessoas.
 
 Esse tipo de abordagem gera um ciclo de ansiedade e desinformação que, de certa forma, banaliza o debate de assuntos sérios.
 
@@ -40,7 +40,7 @@ Mas o que não é normal — ou pelos menos não deveria ser — é a capitaliza
 
 ## Criadores de medo e desespero
 
-Em toda grande mudança de paradigma, sempre surgiram pessoas tentando monetizar em cima do medo. E é triste ver que muitos designers também se rendem a esse *modus operandi. *
+Em toda grande mudança de paradigma, sempre surgiram pessoas tentando monetizar em cima do medo. E é triste ver que muitos designers também se rendem a esse _modus operandi. _
 
 Em vez de “**UX Design está morto**”, porque não falar sobre “**O Futuro do UX Design**”.
 
