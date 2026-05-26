@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content'
 import PostLayout from '@/layouts/PostLayout.astro'
 import { render } from 'astro:content'
+import { formatEditionNumber, getPostEditionNumber } from '@/utils/draft'
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts')
@@ -16,6 +17,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'posts'>
 
 const post = Astro.props
+const editionNumber = await getPostEditionNumber(post.id)
 const { Content, remarkPluginFrontmatter } = await render(post)
 
 const readingTime = remarkPluginFrontmatter.readingTime
@@ -23,6 +25,12 @@ const toc = remarkPluginFrontmatter.toc || []
 const contentFeatures = remarkPluginFrontmatter.contentFeatures || {}
 ---
 
-<PostLayout {...post.data} readingTime={readingTime} toc={toc} contentFeatures={contentFeatures}>
+<PostLayout
+  {...post.data}
+  editionNumber={editionNumber}
+  readingTime={readingTime}
+  toc={toc}
+  contentFeatures={contentFeatures}
+>
   <Content />
 </PostLayout>

@@ -1,59 +1,41 @@
-# Chiri 🌸
+# Stoa News
 
-![screenshot-light](public/screenshots/screenshot-light.png)
-![screenshot-dark](public/screenshots/screenshot-dark.png)
-
-Chiri is a minimal blog theme built with [Astro](https://astro.build), offering customization options while preserving its clean aesthetic.
-
-Check the [demo](https://chiri.the3ash.com/) for more details.
+A minimal personal blog built with [Astro](https://astro.build), based on the [Chiri](https://github.com/the3ash/astro-chiri) theme.
 
 ## Features
 
-- [x] Build with Astro
-- [x] Responsive
-- [x] Light / Dark mode
-- [x] MDX
-- [x] KaTeX
-- [x] Sitemap
-- [x] OpenGraph
-- [x] RSS
+- Static site generation with Astro
+- Responsive light-theme layout
+- Markdown and MDX posts
+- KaTeX math, link cards, embeds, and more
+- RSS, Atom, sitemap, and per-post Open Graph images
 
-## Getting Started
+## Getting started
 
-1. [Fork](https://github.com/the3ash/astro-chiri/fork) this repository, or use this template to [create a new repository](https://github.com/new?template_name=astro-chiri&template_owner=the3ash).
+```bash
+pnpm install
+pnpm dev
+```
 
-2. Run the following commands:
+Edit site settings in `src/config.ts` and the homepage blurb in `src/content/about/about.md`.
 
-   ```bash
-   git clone <your-repo-url>
+Create posts with `pnpm new "Post title"` (prefix with `_` for drafts, e.g. `pnpm new "_Draft title"`).
 
-   cd <your-repo-name>
+Build for production:
 
-   pnpm install
+```bash
+pnpm build
+```
 
-   pnpm dev
-   ```
-
-3. Edit `src/config.ts` and `src/content/about/about.md` to your liking.
-
-4. Use `pnpm new <title>` to create new posts, or add your posts to `src/content/posts`.
-
-5. Build with `pnpm build` and deploy the generated `dist/` directory to any static hosting platform. Link Card metadata is fetched automatically during `pnpm dev` and `pnpm build` and stored in `src/data/link-card-metadata.json` so cards render as static HTML.
-
-&emsp;[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start) [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new)
+Deploy the `dist/` directory to [GitHub Pages](https://pages.github.com/), Netlify, or any static host.
 
 ## Commands
 
-- `pnpm new <title>` - Create a new post (use `_title` for drafts)
-- `pnpm update-link-metadata` - Refresh metadata for `::link` cards (use `--force` to re-fetch existing entries)
-- `pnpm update-theme` - Update the theme to the latest version
-
-## References
-
-- https://paco.me/
-- https://benji.org/
-- https://shud.in/
-- https://retypeset.radishzz.cc/
+- `pnpm dev` — local dev server (refreshes link-card metadata first)
+- `pnpm build` — production build
+- `pnpm new <title>` — create a new post
+- `pnpm update-link-metadata` — refresh `::link` card metadata
+- `pnpm update-theme` — pull updates from upstream Chiri
 
 ## License
 

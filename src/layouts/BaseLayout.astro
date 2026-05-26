@@ -1,7 +1,6 @@
 ---
 import { themeConfig } from '@/config'
 import { ClientRouter } from 'astro:transitions'
-import ThemeManager from '@/components/ui/ThemeManager.astro'
 import TransitionWrapper from '@/components/layout/TransitionWrapper.astro'
 import type { LayoutProps } from '@/types'
 
@@ -16,9 +15,14 @@ const shouldUseCustomWidth = widthValue > 25
 const finalWidth = shouldUseCustomWidth ? `${widthValue}rem` : '25rem'
 ---
 
-<html lang={language}>
+<html lang={language} class="light">
   <head>
-    <ThemeManager />
+    <style is:inline>
+      html {
+        background-color: #fcf9f0;
+        color-scheme: light;
+      }
+    </style>
     {fadeAnimation && <ClientRouter />}
     <slot name="head" />
   </head>

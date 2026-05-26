@@ -5,7 +5,9 @@ export type DateFormat = 'YYYY-MM-DD' | 'MM-DD-YYYY' | 'DD-MM-YYYY' | 'MONTH DAY
 export interface SiteInfo {
   website: string
   title: string
+  brandName: string
   author: string
+  authorAvatar?: string
   description: string
   language: string
 }
@@ -14,7 +16,6 @@ export interface SiteInfo {
 export interface GeneralSettings {
   contentWidth: string
   centeredLayout: boolean
-  themeToggle: boolean
   postListDottedDivider: boolean
   footer: boolean
   fadeAnimation: boolean

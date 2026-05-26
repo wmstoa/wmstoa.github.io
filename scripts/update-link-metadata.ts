@@ -112,7 +112,7 @@ async function fetchMetadata(url: string): Promise<LinkCardMetadata> {
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; Astro Chiri LinkCard Metadata)'
+        'User-Agent': 'Mozilla/5.0 (compatible; Stoa News LinkCard Metadata)'
       }
     })
 

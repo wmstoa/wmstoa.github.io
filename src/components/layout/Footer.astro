@@ -4,19 +4,12 @@ const today = new Date()
 ---
 
 <footer>
-  <div class="footer-content">
-    <div class="copyright">
-      <span class="date">
-        &copy;
-        {today.getFullYear()}
-      </span>
-      {themeConfig.site.author}
-    </div>
-    <div class="powered-by">
-      Powered by{' '}
-      <a href="https://astro.build">Astro</a> +{' '}
-      <a href="https://github.com/the3ash/astro-chiri">Chiri</a>
-    </div>
+  <div class="copyright">
+    <span class="date">
+      &copy;
+      {today.getFullYear()}
+    </span>
+    {themeConfig.site.author}
   </div>
 </footer>
 <style>
@@ -29,31 +22,11 @@ const today = new Date()
     margin-top: 4rem;
   }
 
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
-
-  .copyright,
-  .powered-by {
+  .copyright {
     white-space: nowrap;
   }
 
   .copyright .date {
     opacity: 1;
-  }
-
-  footer a {
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: color 0.2s ease-out;
-  }
-
-  footer a:hover {
-    color: var(--text-primary);
   }
 </style>

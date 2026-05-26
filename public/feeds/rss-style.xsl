@@ -48,12 +48,6 @@
           font-size: 0.8125rem;
           opacity: 0.475;
           }
-          @media (prefers-color-scheme: dark) {
-          body {
-          background-color: #1c1c1c;
-          color: #fff;
-          }
-          }
         </style>
       </head>
       <body>

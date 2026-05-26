@@ -15,11 +15,15 @@ import LinkCard from '@/components/ui/LinkCard.astro'
 import NeoDBCard from '@/components/ui/NeoDBCard.astro'
 import XPOST from '@/components/ui/XPOST.astro'
 import CopyCode from '@/components/ui/CopyCode.astro'
+import Logo from '@/components/ui/Logo.astro'
+import PostFooter from '@/components/widgets/PostFooter.astro'
+import NewsletterForm from '@/components/widgets/NewsletterForm.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 
 import { themeConfig } from '@/config'
+import { formatEditionNumber } from '@/utils/draft'
 
-const { title, pubDate, readingTime, toc = [], contentFeatures = {} } = Astro.props as PostLayoutProps
+const { title, pubDate, editionNumber, toc = [], contentFeatures = {} } = Astro.props as PostLayoutProps
 
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
 const ogImage = `/open-graph/${postSlug}.png`
@@ -44,22 +48,42 @@ const shouldRenderLinkCard = themeConfig.post.linkCard && contentFeatures.hasLin
         <BackButton />
         {shouldRenderToc && <TableOfContents toc={toc} />}
         <div class="title">
+          <a href="/" class="post-brand">
+            <Logo />
+            <span class="post-brand-name">{themeConfig.site.brandName}</span>
+          </a>
+          {
+            editionNumber ? (
+              <p class="edition">Edição #{formatEditionNumber(editionNumber)}</p>
+            ) : null
+          }
           <h1>{title}</h1>
-          <div class="date">
-            <FormattedDate date={pubDate} context="post" />
+          <div class="author">
             {
-              themeConfig.post.readingTime && readingTime && (
-                <span class="reading-time">
-                  <span class="separator">·</span>
-                  {readingTime.text}
-                </span>
-              )
+              themeConfig.site.authorAvatar ? (
+                <img
+                  src={themeConfig.site.authorAvatar}
+                  alt=""
+                  class="author-avatar"
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+              ) : null
             }
+            <p class="author-name">por {themeConfig.site.author}</p>
+            <div class="date">
+              <FormattedDate date={pubDate} context="post" />
+            </div>
           </div>
         </div>
         <article class="content">
           <slot />
         </article>
+        <section class="post-newsletter" aria-label="Newsletter">
+          <NewsletterForm />
+        </section>
+        <PostFooter />
       </div>
     </main>
     {shouldRenderImageOptimizer && <ImageOptimizer />}

@@ -7,9 +7,8 @@
       return
     }
 
-    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
     xCards.forEach((element) => {
-      element.setAttribute('data-theme', isDark ? 'dark' : 'light')
+      element.setAttribute('data-theme', 'light')
     })
 
     // Defer loading of Twitter script to avoid blocking main thread

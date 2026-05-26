@@ -106,7 +106,7 @@ async function generateFeedInstance(context: APIContext) {
     language: language,
     copyright: `Copyright © ${new Date().getFullYear()} ${author}`,
     updated: new Date(),
-    generator: 'Astro Chiri Feed Generator',
+    generator: 'Stoa News Feed Generator',
     feedLinks: {
       rss: `${siteUrl}/rss.xml`,
       atom: `${siteUrl}/atom.xml`

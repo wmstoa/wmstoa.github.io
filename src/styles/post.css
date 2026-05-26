@@ -2,12 +2,13 @@
 .prose * {
   margin: 0;
   padding: 0;
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
 }
 
 /* Main content container */
 .prose {
   margin-bottom: 8rem;
+  font-weight: var(--font-weight-regular);
 }
 
 /* Remove margin-top for the first child */
@@ -17,22 +18,111 @@
 
 /* Post title section */
 .prose .title {
-  margin-bottom: 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  max-width: 100%;
+  margin-inline: auto;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.prose .title .post-brand {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  padding-top: 0;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.prose .title .post-brand .site-logo {
+  display: block;
+  width: auto;
+  max-width: none;
+  height: 48px;
+  margin: 0;
+}
+
+.prose .title .post-brand-name {
+  font-family: var(--serif);
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular);
+  letter-spacing: var(--spacing-m);
+}
+
+.prose .title .edition {
+  margin: 0 0 1.25rem;
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-regular);
+  font-style: italic;
+  color: var(--text-primary);
+  letter-spacing: var(--spacing-m);
 }
 
 .prose .title h1 {
-  margin: 0 0 0.375rem 0;
+  margin: 0 0 2rem;
+  max-width: 100%;
+  font-size: 32px;
+  font-weight: var(--font-weight-regular);
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.prose .title .author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.prose .title .author-avatar {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.prose .title .author-name {
+  margin: 0;
+  font-size: var(--font-size-s);
+  font-style: italic;
+  color: var(--text-primary);
+  letter-spacing: var(--spacing-m);
+}
+
+.prose .title .author .date {
+  margin: 0;
+  text-align: center;
+}
+
+.prose .title .author .date time {
+  font-size: var(--font-size-m);
+  font-style: italic;
+  color: var(--text-secondary);
 }
 
 /* Headings (h1-h5)
  Adjust size or spacing below if needed. */
 .prose h1,
-.prose h2,
-.prose h3,
 .prose h4,
 .prose h5 {
   font-size: var(--font-size-m);
   font-weight: var(--font-weight-bold);
+  line-height: 1.75;
+  margin: 3.75em 0 1.75em 0;
+}
+
+.prose h2,
+.prose h3 {
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
   line-height: 1.75;
   margin: 3.75em 0 1.75em 0;
 }
@@ -144,7 +234,7 @@
 }
 
 .prose figure figcaption {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: var(--font-size-s);
   text-align: center;
 }
@@ -169,8 +259,9 @@
 .prose .img-caption {
   display: block;
   text-align: center;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   font-size: var(--font-size-s);
+  font-style: italic;
   margin-bottom: 2em;
 }
 
@@ -365,6 +456,63 @@
   line-height: 1;
 }
 
+/* Post end sections (newsletter + footer) */
+.prose .post-newsletter,
+.prose .post-footer {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.prose .post-newsletter {
+  margin-top: 3.75em;
+}
+
+.prose .post-newsletter .newsletter-form-container {
+  margin-top: 0;
+}
+
+/* Post footer links block */
+.prose .post-footer {
+  margin-top: 0;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.prose .post-footer-group {
+  margin: 0 0 2rem;
+}
+
+.prose .post-footer-group:last-child {
+  margin-bottom: 0;
+}
+
+.prose .post-footer-label,
+.prose .post-footer-links {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.75;
+  letter-spacing: var(--spacing-m);
+  color: var(--text-primary);
+}
+
+.prose .post-footer-label {
+  margin-bottom: 0.125rem;
+}
+
+.prose .post-footer-links a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--text-primary);
+  text-underline-offset: 0.12em;
+}
+
+.prose .post-footer-links a:hover {
+  opacity: 0.75;
+}
+
 /* Horizontal rule */
 .prose hr {
   margin: 3.75em 0;
@@ -549,17 +697,9 @@
   vertical-align: baseline;
 }
 
-/* Dark mode support */
-@media (prefers-color-scheme: dark) {
-  .katex,
-  .katex * {
-    color: inherit;
-  }
-}
-
 /* Reading Time */
 .reading-time {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   letter-spacing: -0.025em;
 }
 

@@ -1,12 +1,14 @@
 ---
 import { themeConfig } from '@/config'
-import ThemeToggle from '@/components/ui/ThemeToggle.astro'
+import Logo from '@/components/ui/Logo.astro'
 ---
 
 <header>
   <nav>
-    <a href="/">{themeConfig.site.title}</a>
-    {themeConfig.general.themeToggle && <ThemeToggle />}
+    <a href="/" class="site-brand">
+      <Logo />
+      <span>{themeConfig.site.title}</span>
+    </a>
   </nav>
 </header>
 <style>
@@ -15,14 +17,17 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
   }
   nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
-  header a {
+  .site-brand {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     text-decoration: none;
-    min-width: 3rem;
-    display: inline-block;
+    text-align: left;
   }
 </style>

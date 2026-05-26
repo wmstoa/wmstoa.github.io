@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "stoa.news",
   "type": "module",
   "version": "1.0.0",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "format:check": "prettier --check .",
     "new": "tsx scripts/new-post.ts",
     "update-link-metadata": "tsx scripts/update-link-metadata.ts",
+    "import-stoa": "tsx scripts/import-stoa-posts.ts",
     "update-theme": "tsx scripts/update-theme.ts"
   },
   "dependencies": {
