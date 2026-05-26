@@ -26,7 +26,7 @@ export async function getSortedFilteredPosts() {
  */
 export async function getPostsChronological() {
   const posts = await getFilteredPosts()
-  return posts.sort((a, b) => {
+  return posts.sort((a: CollectionEntry<'posts'>, b: CollectionEntry<'posts'>) => {
     const dateDiff = a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
     if (dateDiff !== 0) return dateDiff
     return a.id.localeCompare(b.id)
@@ -38,7 +38,7 @@ export async function getPostsChronological() {
  */
 export async function getPostEditionNumber(postId: string): Promise<number> {
   const posts = await getPostsChronological()
-  const index = posts.findIndex((post) => post.id === postId)
+  const index = posts.findIndex((post: CollectionEntry<'posts'>) => post.id === postId)
   return index === -1 ? 0 : index + 1
 }
 
