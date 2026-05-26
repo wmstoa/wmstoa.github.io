@@ -1,3 +1,7 @@
+# Deploys the Astro build to GitHub Pages via Actions (upload-pages-artifact + deploy-pages).
+# In repo Settings > Pages > Build and deployment, set Source to "GitHub Actions" — not
+# "Deploy from a branch". Branch-based Pages runs the built-in Jekyll workflow and will
+# fail on this Astro site.
 name: CI
 
 on:
@@ -6,16 +10,13 @@ on:
     paths-ignore: &paths-ignore
       - 'LICENSE'
       - '.gitignore'
-      - '**/*.md'
-      - '**/*.png'
-      - '**/*.jpg'
-      - '**/*.jpeg'
-      - '**/*.gif'
-      - '**/*.webp'
-      - '**/*.svg'
+      - 'README.md'
+      - 'src/content/posts/**/*.md'
+      - 'src/content/about/**/*.md'
   pull_request:
     branches: [main]
     paths-ignore: *paths-ignore
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
