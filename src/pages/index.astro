@@ -11,8 +11,23 @@ const posts = await getSortedFilteredPosts()
 
 <IndexLayout title={themeConfig.site.title} description={themeConfig.site.description}>
   <About />
+  <NewsletterForm />
   <main>
     <PostList posts={posts} />
-    <NewsletterForm />
   </main>
 </IndexLayout>
+
+<style is:global>
+  .page-content > main > .about.prose:not(:empty) {
+    margin-bottom: 4rem;
+  }
+
+  .page-content > main > .about.prose p {
+    margin-bottom: 0;
+  }
+
+  .page-content > main > .newsletter-form-container {
+    margin-top: 0;
+    margin-bottom: 4rem;
+  }
+</style>

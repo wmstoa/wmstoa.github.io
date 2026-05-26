@@ -21,3 +21,10 @@ const { Content } = hasContent && aboutEntry ? await render(aboutEntry) : { Cont
     margin-bottom: 1.25rem;
   }
 </style>
+
+<style is:global>
+  .about.prose p {
+    max-width: 350px;
+    font-style: italic;
+  }
+</style>
