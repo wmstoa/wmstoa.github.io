@@ -15,7 +15,7 @@ export const themeConfig: ThemeConfig = {
 
   // GENERAL SETTINGS ////////////////////////////////////////////////////////////////////////////////////
   general: {
-    contentWidth: '33rem', // Content area width (528px at 16px base)
+    contentWidth: '36rem', // Content area width (576px at 16px base)
     centeredLayout: true, // Use centered layout (false for left-aligned)
     postListDottedDivider: false, // Show dotted divider in post list
     footer: true, // Show footer

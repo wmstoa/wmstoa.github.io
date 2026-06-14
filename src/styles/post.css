@@ -46,6 +46,7 @@
   max-width: none;
   height: 48px;
   margin: 0;
+  border-radius: 0;
 }
 
 .prose .title .post-brand-name {
