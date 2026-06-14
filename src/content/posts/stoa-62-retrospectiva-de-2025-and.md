@@ -26,7 +26,7 @@ Depois de analisar tudo o que fiz posso resumir esse ano em: muito conteúdo cri
 ![](./_assets/stoa-62-retrospectiva-de-2025-and-2.jpg)
 
 - Lancei o [componentes.design](https://componentes.design/) 2.0
-- Lancei aulas sobre [Tabelas](https://componentes.design/aulas/tabelas), [Accordions](https://componentes.design/aulas/collapse-accordion) e [Alertas/Mensagens](https://componentes.design/aulas/alerta)
+- Lancei aulas sobre [Tabelas](https://componentes.design/aulas/tabelas), [Accordions](https://componentes.design/aulas/accordion-collapse) e [Alertas/Mensagens](https://componentes.design/aulas/alerta)
 - Fiquei em 7º lugar no Pexels Brasil
 
 **Fevereiro**
@@ -51,7 +51,7 @@ Depois de analisar tudo o que fiz posso resumir esse ano em: muito conteúdo cri
 **Maio**
 
 - Lancei o livro [Tipografia & Interface](https://www.editorabrauer.com.br/livros-de-design/tipografia-e-interface) pela Brauer Editora
-- Lancei 3 aulas sobre [Princípios de Design](https://componentes.design/aulas/principios-fundamentos-design), [Elementos de Visual Design](https://componentes.design/aulas/elementos-visual-design) e [Gestalt](https://componentes.design/aulas/gestalt).
+- Lancei 3 aulas sobre [Princípios de Design](https://componentes.design/aulas/principios-fundamentos-design), Elementos de Visual Design e [Gestalt](https://componentes.design/aulas/gestalt).
 - Conheci as cidades Ahlen e visitei o [Drachenburg Castle](https://www.instagram.com/p/DKoxMp9M90A/?img_index=1).
 
 **Junho**
