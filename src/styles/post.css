@@ -202,6 +202,7 @@
   height: auto;
   display: block;
   margin: 2em 0;
+  border-radius: 12px;
 }
 
 .img-placeholder {
@@ -283,19 +284,46 @@
 
 /* Blockquotes */
 .prose blockquote {
-  border-left: 2px solid var(--border);
-  margin: 0 0 1.75em 0.125em;
-  padding: 0 0 0 1.375em;
-  text-align: left;
+  border: none;
+  margin: 2.5em 0;
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  color: #4a3d39;
+}
+
+.prose blockquote::before,
+.prose blockquote::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: var(--border);
+}
+
+.prose blockquote::before {
+  margin-bottom: 2rem;
+}
+
+.prose blockquote::after {
+  margin-top: 2rem;
 }
 
 .prose blockquote p {
   margin: 0;
 }
 
+.prose blockquote p::before {
+  content: '\201C';
+}
+
+.prose blockquote p::after {
+  content: '\201D';
+}
+
 .prose blockquote cite {
-  display: inline-block;
-  margin-top: 0.5em;
+  display: block;
+  margin-top: 0.75em;
+  text-align: center;
 }
 
 /* Unordered lists */

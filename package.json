@@ -17,6 +17,7 @@
     "new": "tsx scripts/new-post.ts",
     "update-link-metadata": "tsx scripts/update-link-metadata.ts",
     "import-stoa": "tsx scripts/import-stoa-posts.ts",
+    "import-loops": "tsx scripts/import-loops-drafts.ts",
     "update-theme": "tsx scripts/update-theme.ts"
   },
   "dependencies": {
