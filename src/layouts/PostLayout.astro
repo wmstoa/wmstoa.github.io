@@ -17,6 +17,7 @@ import XPOST from '@/components/ui/XPOST.astro'
 import CopyCode from '@/components/ui/CopyCode.astro'
 import Logo from '@/components/ui/Logo.astro'
 import PostFooter from '@/components/widgets/PostFooter.astro'
+import PostShare from '@/components/widgets/PostShare.astro'
 import NewsletterForm from '@/components/widgets/NewsletterForm.astro'
 import BaseLayout from '@/layouts/BaseLayout.astro'
 
@@ -26,6 +27,7 @@ import { formatEditionNumber } from '@/utils/draft'
 const { title, pubDate, editionNumber, toc = [], contentFeatures = {} } = Astro.props as PostLayoutProps
 
 const postSlug = Astro.url.pathname.split('/').filter(Boolean).pop() || ''
+const postUrl = new URL(Astro.url.pathname, Astro.site).href
 const ogImage = `/open-graph/${postSlug}.png`
 const shouldRenderToc = themeConfig.post.toc && toc.length > 0
 const shouldRenderCopyCode = themeConfig.post.copyCode && contentFeatures.hasCodeBlock
@@ -76,6 +78,7 @@ const shouldRenderLinkCard = themeConfig.post.linkCard && contentFeatures.hasLin
         <article class="content">
           <slot />
         </article>
+        <PostShare title={title} url={postUrl} />
         <section class="post-newsletter" aria-label="Newsletter">
           <NewsletterForm />
         </section>

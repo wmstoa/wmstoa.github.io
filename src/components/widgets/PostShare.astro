@@ -1,0 +1,65 @@
+---
+interface Props {
+  title: string
+  url: string
+}
+
+const { title, url } = Astro.props
+
+const shareText = `${title} · Stoa News`
+const xUrl = `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(shareText)}`
+const linkedInUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
+const threadsUrl = `https://www.threads.net/intent/post?text=${encodeURIComponent(`${shareText}\n${url}`)}`
+---
+
+<section class="post-share" aria-label="Compartilhar">
+  <p class="post-share-label">Compartilhar</p>
+  <p class="post-share-links">
+    <button type="button" class="post-share-copy" data-post-url={url} data-copy-label="Copiar link" data-copied-label="Copiado!">
+      Copiar link
+    </button>
+    <span class="post-share-separator" aria-hidden="true">∴</span>
+    <a href={xUrl} target="_blank" rel="noopener noreferrer">X</a>
+    <span class="post-share-separator" aria-hidden="true">∴</span>
+    <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <span class="post-share-separator" aria-hidden="true">∴</span>
+    <a href={threadsUrl} target="_blank" rel="noopener noreferrer">Threads</a>
+  </p>
+</section>
+
+<script is:inline>
+  function initPostShare() {
+    const copyButtons = document.querySelectorAll('.post-share-copy')
+
+    copyButtons.forEach((button) => {
+      if (button.dataset.shareInit) return
+      button.dataset.shareInit = '1'
+
+      const copyLabel = button.dataset.copyLabel || 'Copiar link'
+      const copiedLabel = button.dataset.copiedLabel || 'Copiado!'
+      const postUrl = button.dataset.postUrl || window.location.href
+      let resetTimer
+
+      button.addEventListener('click', async () => {
+        window.clearTimeout(resetTimer)
+
+        try {
+          await navigator.clipboard.writeText(postUrl)
+          button.textContent = copiedLabel
+          button.dataset.copyState = 'copied'
+
+          resetTimer = window.setTimeout(() => {
+            button.textContent = copyLabel
+            button.dataset.copyState = 'idle'
+          }, 1500)
+        } catch (error) {
+          console.error('Failed to copy post link:', error)
+          button.textContent = copyLabel
+          button.dataset.copyState = 'idle'
+        }
+      })
+    })
+  }
+
+  document.addEventListener('astro:page-load', initPostShare)
+</script>

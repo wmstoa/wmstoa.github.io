@@ -484,7 +484,8 @@
   line-height: 1;
 }
 
-/* Post end sections (newsletter + footer) */
+/* Post end sections (share + newsletter + footer) */
+.prose .post-share,
 .prose .post-newsletter,
 .prose .post-footer {
   padding-top: 2.5rem;
@@ -492,8 +493,54 @@
   border-top: 1px solid var(--border);
 }
 
-.prose .post-newsletter {
+.prose .post-share {
   margin-top: 3.75em;
+}
+
+.prose .post-share-label,
+.prose .post-share-links {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.75;
+  letter-spacing: var(--spacing-m);
+  color: var(--text-primary);
+}
+
+.prose .post-share-label {
+  margin-bottom: 0.125rem;
+}
+
+.prose .post-share-links a,
+.prose .post-share-copy {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--text-primary);
+  text-underline-offset: 0.12em;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.prose .post-share-links a:hover,
+.prose .post-share-copy:hover {
+  opacity: 0.75;
+}
+
+.prose .post-share-copy[data-copy-state='copied'] {
+  opacity: 0.75;
+}
+
+.prose .post-share-separator {
+  margin: 0 0.25em;
+  color: var(--text-primary);
+}
+
+.prose .post-newsletter {
+  margin-top: 0;
 }
 
 .prose .post-newsletter .newsletter-form-container {
