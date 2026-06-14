@@ -7,7 +7,7 @@
 
   /* Typography */
   --sans: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-  --serif: Georgia, 'Times New Roman', Times, serif;
+  --serif: 'Source Serif 4', Georgia, 'Times New Roman', Times, serif;
   --mono: ui-monospace, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 
   --font-size-s: 0.8125rem;
