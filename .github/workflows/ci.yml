@@ -11,8 +11,6 @@ on:
       - 'LICENSE'
       - '.gitignore'
       - 'README.md'
-      - 'src/content/posts/**/*.md'
-      - 'src/content/about/**/*.md'
   pull_request:
     branches: [main]
     paths-ignore: *paths-ignore
